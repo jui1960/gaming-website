@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">JPCsquad</div>
+        <input type="text" placeholder="What are you looking for?" class="search-box">
+        <nav>
+            <ul>
+                <li><a href="#">Shots</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Hire a Designer</a></li>
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <button class="login-btn">Log in</button>
+        <button class="signup-btn">Sign up</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Gaming Website</h1>
+        <p>879 inspirational designs, illustrations, and graphic elements from the world's best designers.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="card">
+            <img src="image/game1.jpg" alt="Chumbi Valley">
+            <h3>Chumbi Valley</h3>
+            <p>By Zajno</p>
+        </div>
+        <div class="card">
+            <img src="image/game2.jpeg" alt="Rune Realms">
+            <h3>Rune Realms</h3>
+            <p>By Shakuro</p>
+        </div>
+        <div class="card">
+            <img src="image/game3.jpg" alt="Laptop Game UI">
+            <h3>Futuristic Gaming UI</h3>
+            <p>By Zajno</p>
+        </div>
+        <div class="card">
+            <img src="image/game4.jpeg" alt="Monster Boris">
+            <h3>Monster Boris</h3>
+            <p>By Nixtio</p>
+        </div>
+        <div class="card">
+            <img src="image/game5.jpeg" alt="Cyberpunk City">
+            <h3>Cyberpunk City</h3>
+            <p>By FuturisticDev</p>
+        </div>
+        <div class="card">
+            <img src="image/game6.jpeg" alt="Space War">
+            <h3>Space War</h3>
+            <p>By GalacticDesigns</p>
+        </div>
+        <div class="card">
+            <img src="image/game7.jpeg" alt="Futuristic Racing">
+            <h3>Futuristic Racing</h3>
+            <p>By SpeedsterX</p>
+        </div>
+        <div class="card">
+            <img src="image/game8.jpeg" alt="Fantasy Island">
+            <h3>Fantasy Island</h3>
+            <p>By DreamWorld</p>
+        </div>
+    </section>
+
+    <!-- LOGIN MODAL -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('login-modal')">&times;</span>
+            <h2>Log In</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Enter Email" required>
+                <input type="password" id="login-password" placeholder="Enter Password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- SIGNUP MODAL -->
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('signup-modal')">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-name" placeholder="Full Name" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

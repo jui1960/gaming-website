@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gaming Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="laptop.css">
 </head>
 <body>
 
     <!-- Header Section -->
     <header>
-        <div class="logo">JPCsquad</div>
+        <div class="logo"><img class="weblogo" src="image/gamelogo.png" alt=""></div>
         <input type="text" placeholder="What are you looking for?" class="search-box">
         <nav>
             <ul>
@@ -21,6 +23,13 @@
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav>
+        <div class="profile-container">
+            <img src="image/juii.jpg" alt="Profile" class="profile-logo" id="profile-logo">
+            <div class="dropdown-menu" id="dropdown-menu">
+                <button id="logout-btn">Log out</button>
+            </div>
+        </div>
+        
         <button class="login-btn">Log in</button>
         <button class="signup-btn">Sign up</button>
     </header>

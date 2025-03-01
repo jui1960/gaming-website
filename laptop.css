@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+    .weblogo {
+        width: 120px; /* ছোট স্ক্রিনের জন্য লোগো ছোট হবে */
+    }
+}
